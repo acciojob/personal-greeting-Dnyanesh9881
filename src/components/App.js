@@ -11,6 +11,7 @@ function catchChnage(event){
   return (
     <div>
         {/* Do not remove the main div */}
+        <p>Enter your name:</p>
         <input type="text" onChange={catchChnage} />
         {
         text && (
