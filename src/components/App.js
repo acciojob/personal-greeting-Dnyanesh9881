@@ -12,7 +12,7 @@ function catchChnage(event){
     <div>
         {/* Do not remove the main div */}
         <p>Enter your name:</p>
-        <input type="text" onChange={catchChnage} />
+        <input type="text" value={text} onChange={catchChnage} />
         {
         text && (
           <p>Hello {text}!</p>
